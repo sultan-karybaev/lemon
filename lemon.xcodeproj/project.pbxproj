@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1419D13B993ADC5713CA3C91 /* Pods_lemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9CB297C9036D9DFF5E9950 /* Pods_lemon.framework */; };
+		2E21016C0F39286BCB001BE0 /* Pods_lemonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7807F612C2B720D245873 /* Pods_lemonTests.framework */; };
+		D1105BEC228165B7005102AB /* photo-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D1105BEB228165B7005102AB /* photo-camera.png */; };
 		D1ADA40C22735BD200D30E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA40B22735BD200D30E46 /* AppDelegate.swift */; };
-		D1ADA40E22735BD200D30E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA40D22735BD200D30E46 /* ViewController.swift */; };
 		D1ADA41122735BD200D30E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ADA40F22735BD200D30E46 /* Main.storyboard */; };
 		D1ADA41322735BD600D30E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ADA41222735BD600D30E46 /* Assets.xcassets */; };
 		D1ADA41622735BD600D30E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ADA41422735BD600D30E46 /* LaunchScreen.storyboard */; };
 		D1ADA42122735BD600D30E46 /* lemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA42022735BD600D30E46 /* lemonTests.swift */; };
 		D1ADA42C22735BD600D30E46 /* lemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA42B22735BD600D30E46 /* lemonUITests.swift */; };
+		D1ADA43A22735C2100D30E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43922735C2100D30E46 /* ViewController.swift */; };
+		D1ADA44222735D1500D30E46 /* M3u8Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43B22735D1400D30E46 /* M3u8Playlist.swift */; };
+		D1ADA44322735D1500D30E46 /* VideoDownloaderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43C22735D1400D30E46 /* VideoDownloaderHelper.swift */; };
+		D1ADA44422735D1500D30E46 /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43D22735D1400D30E46 /* VideoDownloader.swift */; };
+		D1ADA44522735D1500D30E46 /* M3u8TsSegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43E22735D1400D30E46 /* M3u8TsSegmentModel.swift */; };
+		D1ADA44622735D1500D30E46 /* SegmentDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA43F22735D1400D30E46 /* SegmentDownloader.swift */; };
+		D1ADA44722735D1500D30E46 /* M3u8Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA44022735D1400D30E46 /* M3u8Parser.swift */; };
+		D1ADA44822735D1500D30E46 /* LemonDeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADA44122735D1500D30E46 /* LemonDeer.swift */; };
+		E2A86288622A1AB66BAB6075 /* Pods_lemonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0B8758269FC17FDCDCB01 /* Pods_lemonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05F0B8758269FC17FDCDCB01 /* Pods_lemonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lemonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9CB297C9036D9DFF5E9950 /* Pods_lemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lemon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFB93469380535220B8A06B /* Pods-lemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemon.release.xcconfig"; path = "Target Support Files/Pods-lemon/Pods-lemon.release.xcconfig"; sourceTree = "<group>"; };
+		513B7F4B37551FB59E0D7FD5 /* Pods-lemonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemonUITests.release.xcconfig"; path = "Target Support Files/Pods-lemonUITests/Pods-lemonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		713972B64DE19492DBD9F9EB /* Pods-lemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemon.debug.xcconfig"; path = "Target Support Files/Pods-lemon/Pods-lemon.debug.xcconfig"; sourceTree = "<group>"; };
+		C2136931781FEB63FA17E3DE /* Pods-lemonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemonTests.debug.xcconfig"; path = "Target Support Files/Pods-lemonTests/Pods-lemonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1105BEB228165B7005102AB /* photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera.png"; sourceTree = "<group>"; };
 		D1ADA40822735BD200D30E46 /* lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ADA40B22735BD200D30E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1ADA40D22735BD200D30E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1ADA41022735BD200D30E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1ADA41222735BD600D30E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1ADA41522735BD600D30E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,17 @@
 		D1ADA42722735BD600D30E46 /* lemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ADA42B22735BD600D30E46 /* lemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lemonUITests.swift; sourceTree = "<group>"; };
 		D1ADA42D22735BD600D30E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1ADA43922735C2100D30E46 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1ADA43B22735D1400D30E46 /* M3u8Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M3u8Playlist.swift; sourceTree = "<group>"; };
+		D1ADA43C22735D1400D30E46 /* VideoDownloaderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloaderHelper.swift; sourceTree = "<group>"; };
+		D1ADA43D22735D1400D30E46 /* VideoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloader.swift; sourceTree = "<group>"; };
+		D1ADA43E22735D1400D30E46 /* M3u8TsSegmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M3u8TsSegmentModel.swift; sourceTree = "<group>"; };
+		D1ADA43F22735D1400D30E46 /* SegmentDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentDownloader.swift; sourceTree = "<group>"; };
+		D1ADA44022735D1400D30E46 /* M3u8Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M3u8Parser.swift; sourceTree = "<group>"; };
+		D1ADA44122735D1500D30E46 /* LemonDeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonDeer.swift; sourceTree = "<group>"; };
+		DA603F254240DDDCB94D70EB /* Pods-lemonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemonUITests.debug.xcconfig"; path = "Target Support Files/Pods-lemonUITests/Pods-lemonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB7807F612C2B720D245873 /* Pods_lemonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lemonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD64EC54288D0E7F016F6D22 /* Pods-lemonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lemonTests.release.xcconfig"; path = "Target Support Files/Pods-lemonTests/Pods-lemonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1419D13B993ADC5713CA3C91 /* Pods_lemon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E21016C0F39286BCB001BE0 /* Pods_lemonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A86288622A1AB66BAB6075 /* Pods_lemonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B691D0FAA9D13753314CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9CB297C9036D9DFF5E9950 /* Pods_lemon.framework */,
+				DAB7807F612C2B720D245873 /* Pods_lemonTests.framework */,
+				05F0B8758269FC17FDCDCB01 /* Pods_lemonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1ADA3FF22735BD200D30E46 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				D1ADA41F22735BD600D30E46 /* lemonTests */,
 				D1ADA42A22735BD600D30E46 /* lemonUITests */,
 				D1ADA40922735BD200D30E46 /* Products */,
+				D2BD86042997CFA04C6CBE1A /* Pods */,
+				47B691D0FAA9D13753314CE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,20 @@
 		D1ADA40A22735BD200D30E46 /* lemon */ = {
 			isa = PBXGroup;
 			children = (
+				D1105BEB228165B7005102AB /* photo-camera.png */,
 				D1ADA40B22735BD200D30E46 /* AppDelegate.swift */,
-				D1ADA40D22735BD200D30E46 /* ViewController.swift */,
+				D1ADA43922735C2100D30E46 /* ViewController.swift */,
 				D1ADA40F22735BD200D30E46 /* Main.storyboard */,
 				D1ADA41222735BD600D30E46 /* Assets.xcassets */,
 				D1ADA41422735BD600D30E46 /* LaunchScreen.storyboard */,
 				D1ADA41722735BD600D30E46 /* Info.plist */,
+				D1ADA44122735D1500D30E46 /* LemonDeer.swift */,
+				D1ADA44022735D1400D30E46 /* M3u8Parser.swift */,
+				D1ADA43B22735D1400D30E46 /* M3u8Playlist.swift */,
+				D1ADA43E22735D1400D30E46 /* M3u8TsSegmentModel.swift */,
+				D1ADA43F22735D1400D30E46 /* SegmentDownloader.swift */,
+				D1ADA43D22735D1400D30E46 /* VideoDownloader.swift */,
+				D1ADA43C22735D1400D30E46 /* VideoDownloaderHelper.swift */,
 			);
 			path = lemon;
 			sourceTree = "<group>";
@@ -125,6 +176,19 @@
 			path = lemonUITests;
 			sourceTree = "<group>";
 		};
+		D2BD86042997CFA04C6CBE1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				713972B64DE19492DBD9F9EB /* Pods-lemon.debug.xcconfig */,
+				4EFB93469380535220B8A06B /* Pods-lemon.release.xcconfig */,
+				C2136931781FEB63FA17E3DE /* Pods-lemonTests.debug.xcconfig */,
+				DD64EC54288D0E7F016F6D22 /* Pods-lemonTests.release.xcconfig */,
+				DA603F254240DDDCB94D70EB /* Pods-lemonUITests.debug.xcconfig */,
+				513B7F4B37551FB59E0D7FD5 /* Pods-lemonUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1ADA43022735BD600D30E46 /* Build configuration list for PBXNativeTarget "lemon" */;
 			buildPhases = (
+				DB1EDB1A0288219C656CB229 /* [CP] Check Pods Manifest.lock */,
 				D1ADA40422735BD200D30E46 /* Sources */,
 				D1ADA40522735BD200D30E46 /* Frameworks */,
 				D1ADA40622735BD200D30E46 /* Resources */,
+				C12E9847CAAECE5E341F8455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1ADA43322735BD600D30E46 /* Build configuration list for PBXNativeTarget "lemonTests" */;
 			buildPhases = (
+				CFEA76F429C786EA0F8A8E52 /* [CP] Check Pods Manifest.lock */,
 				D1ADA41822735BD600D30E46 /* Sources */,
 				D1ADA41922735BD600D30E46 /* Frameworks */,
 				D1ADA41A22735BD600D30E46 /* Resources */,
@@ -167,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1ADA43622735BD600D30E46 /* Build configuration list for PBXNativeTarget "lemonUITests" */;
 			buildPhases = (
+				506238A8607B649B710E23A0 /* [CP] Check Pods Manifest.lock */,
 				D1ADA42322735BD600D30E46 /* Sources */,
 				D1ADA42422735BD600D30E46 /* Frameworks */,
 				D1ADA42522735BD600D30E46 /* Resources */,
@@ -232,6 +300,7 @@
 				D1ADA41622735BD600D30E46 /* LaunchScreen.storyboard in Resources */,
 				D1ADA41322735BD600D30E46 /* Assets.xcassets in Resources */,
 				D1ADA41122735BD200D30E46 /* Main.storyboard in Resources */,
+				D1105BEC228165B7005102AB /* photo-camera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +320,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		506238A8607B649B710E23A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lemonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12E9847CAAECE5E341F8455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lemon/Pods-lemon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppFolder/AppFolder.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppFolder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lemon/Pods-lemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEA76F429C786EA0F8A8E52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lemonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1EDB1A0288219C656CB229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lemon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1ADA40422735BD200D30E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1ADA40E22735BD200D30E46 /* ViewController.swift in Sources */,
+				D1ADA44322735D1500D30E46 /* VideoDownloaderHelper.swift in Sources */,
+				D1ADA44422735D1500D30E46 /* VideoDownloader.swift in Sources */,
+				D1ADA44822735D1500D30E46 /* LemonDeer.swift in Sources */,
+				D1ADA43A22735C2100D30E46 /* ViewController.swift in Sources */,
+				D1ADA44222735D1500D30E46 /* M3u8Playlist.swift in Sources */,
 				D1ADA40C22735BD200D30E46 /* AppDelegate.swift in Sources */,
+				D1ADA44722735D1500D30E46 /* M3u8Parser.swift in Sources */,
+				D1ADA44622735D1500D30E46 /* SegmentDownloader.swift in Sources */,
+				D1ADA44522735D1500D30E46 /* M3u8TsSegmentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +601,7 @@
 		};
 		D1ADA43122735BD600D30E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713972B64DE19492DBD9F9EB /* Pods-lemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +620,7 @@
 		};
 		D1ADA43222735BD600D30E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFB93469380535220B8A06B /* Pods-lemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +639,7 @@
 		};
 		D1ADA43422735BD600D30E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2136931781FEB63FA17E3DE /* Pods-lemonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +661,7 @@
 		};
 		D1ADA43522735BD600D30E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD64EC54288D0E7F016F6D22 /* Pods-lemonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +683,7 @@
 		};
 		D1ADA43722735BD600D30E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA603F254240DDDCB94D70EB /* Pods-lemonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +704,7 @@
 		};
 		D1ADA43822735BD600D30E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513B7F4B37551FB59E0D7FD5 /* Pods-lemonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

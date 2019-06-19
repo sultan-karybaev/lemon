@@ -1,0 +1,28 @@
+PODS:
+  - AppFolder (0.2.0)
+  - CocoaLumberjack/Core (3.5.1)
+  - CocoaLumberjack/Swift (3.5.1):
+    - CocoaLumberjack/Core
+  - GCDWebServer/Core (3.5.2)
+  - GCDWebServer/WebDAV (3.5.2):
+    - GCDWebServer/Core
+
+DEPENDENCIES:
+  - AppFolder
+  - CocoaLumberjack/Swift
+  - GCDWebServer/WebDAV
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppFolder
+    - CocoaLumberjack
+    - GCDWebServer
+
+SPEC CHECKSUMS:
+  AppFolder: d10ba19488bd441d60ffcf96eb2ab639a4825231
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  GCDWebServer: ead88cd14596dd4eae4f5830b8877c87c8728990
+
+PODFILE CHECKSUM: b84101d30646effb9fb58477446ef29ed5419b7d
+
+COCOAPODS: 1.6.1
